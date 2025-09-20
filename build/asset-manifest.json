@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58d4f6a4.css",
+    "main.js": "/static/js/main.3c1f8e51.js",
+    "static/js/453.dc73245c.chunk.js": "/static/js/453.dc73245c.chunk.js",
+    "static/media/shipping.png": "/static/media/shipping.0b75810c0f1fdd086628.png",
+    "static/media/visa.png": "/static/media/visa.439f76e4b63bf7238254.png",
+    "static/media/secure.png": "/static/media/secure.17a63112349c0419293f.png",
+    "static/media/jazzcash.png": "/static/media/jazzcash.5c0392efe22b8e2f5b5a.png",
+    "static/media/bot.gif": "/static/media/bot.aa9a7d837949b0f569e1.gif",
+    "static/media/huawei-gallery.png": "/static/media/huawei-gallery.423e4758771f11711133.png",
+    "static/media/mastercard.png": "/static/media/mastercard.0f91cea609e2653c8f0e.png",
+    "static/media/easypaisa.png": "/static/media/easypaisa.9bfd5a2683803ba39152.png",
+    "static/media/verified.png": "/static/media/verified.2bdcc3f444d15e58fb69.png",
+    "static/media/google-play.png": "/static/media/google-play.cf5a6e3177f3798323c6.png",
+    "static/media/return.png": "/static/media/return.cac12989665dc8839136.png",
+    "static/media/app-store.png": "/static/media/app-store.5b89df8bb8e4c78d3753.png",
+    "index.html": "/index.html",
+    "main.58d4f6a4.css.map": "/static/css/main.58d4f6a4.css.map",
+    "main.3c1f8e51.js.map": "/static/js/main.3c1f8e51.js.map",
+    "453.dc73245c.chunk.js.map": "/static/js/453.dc73245c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58d4f6a4.css",
+    "static/js/main.3c1f8e51.js"
+  ]
+}
