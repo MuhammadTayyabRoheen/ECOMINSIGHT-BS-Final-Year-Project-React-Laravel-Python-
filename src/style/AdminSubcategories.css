@@ -1,0 +1,121 @@
+/* Container styling */
+.admin-subcategories {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Heading */
+.admin-subcategories h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Form styling */
+.admin-subcategories .admin-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.admin-subcategories .admin-form input[type="text"],
+.admin-subcategories .admin-form select,
+.admin-subcategories .admin-form input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 200px;
+  font-size: 14px;
+}
+
+/* Add / Update button */
+.admin-subcategories .admin-form button {
+  background-color: #28a745;  /* green */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.admin-subcategories .admin-form button:hover {
+  background-color: #1e7e34;  /* darker green */
+}
+
+/* Cancel button for edit mode */
+.admin-subcategories .admin-form .cancel-btn {
+  background-color: #6c757d;  /* gray */
+}
+
+.admin-subcategories .admin-form .cancel-btn:hover {
+  background-color: #5a6268;
+}
+
+/* Table styling */
+.admin-subcategories table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-subcategories th,
+.admin-subcategories td {
+  border: 1px solid #eee;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.admin-subcategories th {
+  background-color: #28a745;  /* green header */
+  color: #ffffff;
+}
+
+/* Image in table cell */
+.admin-subcategories img {
+  height: 50px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* Edit button */
+.admin-subcategories button {
+  margin-right: 6px;
+}
+
+.admin-subcategories .edit-btn {
+  background-color: #17a2b8;  /* info-blue */
+  color: #ffffff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.admin-subcategories .edit-btn:hover {
+  background-color: #117a8b;
+}
+
+/* Delete button */
+.admin-subcategories .delete-btn {
+  background-color: #dc3545;  /* red */
+  color: #ffffff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.admin-subcategories .delete-btn:hover {
+  background-color: #b02a37;
+}

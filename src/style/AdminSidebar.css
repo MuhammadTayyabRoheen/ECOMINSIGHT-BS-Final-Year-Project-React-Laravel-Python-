@@ -1,0 +1,116 @@
+.admin-sidebar {
+  width: 220px;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.admin-sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.admin-sidebar ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.admin-sidebar ul li a:hover {
+  color: #0056b3;
+}
+.admin-sidebar {
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.admin-title-link {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.admin-title-link:hover {
+  text-decoration: underline;
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.admin-sidebar li {
+  margin-bottom: 15px;
+}
+
+.admin-sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.admin-sidebar a:hover {
+  color: #5c6dfc;
+}
+
+.logout-section {
+  margin-top: auto;
+}
+
+.logout-btn {
+  width: 100%;
+  padding: 8px;
+  background-color: #0ae8a9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #167b6f;
+}
+.admin-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.brand-icon {
+  font-size: 1.8rem;
+}
+
+.brand-text {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.admin-title {
+  font-size: 1.2rem;
+  margin: 15px 0 25px;
+  color: #333;
+}

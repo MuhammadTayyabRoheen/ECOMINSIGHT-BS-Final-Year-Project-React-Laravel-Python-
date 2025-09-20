@@ -1,0 +1,93 @@
+/* Container */
+.admin-brands {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-brands h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form */
+.admin-brands form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.admin-brands input[type="text"] {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.admin-brands button[type="submit"] {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-brands button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+/* Table */
+.admin-brands table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-brands th,
+.admin-brands td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.admin-brands th {
+  background: #007bff;
+  color: #fff;
+}
+
+.admin-brands tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* Action buttons */
+.admin-brands button {
+  background: #6c757d;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background 0.3s ease;
+}
+
+.admin-brands button:hover {
+  opacity: 0.9;
+}
+
+.admin-brands button:nth-child(1) {
+  background: #ffc107; /* Edit - Yellow */
+}
+
+.admin-brands button:nth-child(2) {
+  background: #dc3545; /* Delete - Red */
+}

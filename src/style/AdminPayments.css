@@ -1,0 +1,115 @@
+/* AdminPayments.css */
+
+/* Container */
+.admin-payments {
+  padding: 20px;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.admin-payments h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table */
+.admin-payments table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.admin-payments th,
+.admin-payments td {
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.admin-payments th {
+  background: #007bff;
+  color: #fff;
+  font-weight: 600;
+}
+
+.admin-payments tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-payments tbody tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.admin-payments tbody tr:hover {
+  background: #e6f7ff;
+  transition: 0.2s ease;
+}
+
+/* Actions */
+.admin-payments button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.admin-payments button:first-of-type {
+  background: #17a2b8; /* Info */
+  color: #fff;
+}
+
+.admin-payments button:first-of-type:hover {
+  background: #138496;
+}
+
+.admin-payments button:last-of-type {
+  background: #dc3545; /* Danger */
+  color: #fff;
+}
+
+.admin-payments button:last-of-type:hover {
+  background: #c82333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .admin-payments table,
+  .admin-payments thead,
+  .admin-payments tbody,
+  .admin-payments th,
+  .admin-payments td,
+  .admin-payments tr {
+    display: block;
+  }
+
+  .admin-payments thead tr {
+    display: none;
+  }
+
+  .admin-payments tbody tr {
+    margin-bottom: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    padding: 10px;
+  }
+
+  .admin-payments td {
+    padding: 10px;
+    text-align: right;
+    position: relative;
+  }
+
+  .admin-payments td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    font-weight: 600;
+    color: #555;
+  }
+}

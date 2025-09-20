@@ -1,0 +1,135 @@
+.order-detail-wrapper {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .order-summary h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .status-badge {
+    margin-left: 10px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  
+  .status-badge.pending {
+    background: #fff2cc;
+    color: #8a6d3b;
+    border: 1px solid #f0c36d;
+  }
+  
+  .status-badge.completed {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .order-loading {
+    text-align: center;
+    padding: 80px 0;
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .items-title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .order-items-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 20px;
+  }
+  
+  .item-card {
+    display: flex;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .item-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .item-card img {
+    width: 90px;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .item-info h4 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    color: #222;
+  }
+  
+  .item-info p {
+    font-size: 14px;
+    color: #555;
+    margin: 3px 0;
+  }
+  
+  .discounted {
+    color: #e53935;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .order-btn-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    gap: 15px;
+  }
+  
+  .order-btn-group button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background: #f44336;
+    color: #fff;
+  }
+  .cancel-btn:hover {
+    background: #d32f2f;
+  }
+  
+  .reorder-btn {
+    background: #2196f3;
+    color: white;
+  }
+  .reorder-btn:hover {
+    background: #1976d2;
+  }
+  
+  .track-btn {
+    background: #4caf50;
+    color: white;
+  }
+  .track-btn:hover {
+    background: #388e3c;
+  }
+  

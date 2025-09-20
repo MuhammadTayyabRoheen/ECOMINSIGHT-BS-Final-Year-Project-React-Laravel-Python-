@@ -1,0 +1,63 @@
+.dashboard-container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .dashboard-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .stats-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .stat-card {
+    flex: 1;
+    min-width: 200px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .stat-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .stat-card .count {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  /* Colors */
+  .stat-card.orders {
+    border-left: 6px solid #5c6dfc;
+  }
+  
+  .stat-card.shipped {
+    border-left: 6px solid #00b894;
+  }
+  
+  .stat-card.delivered {
+    border-left: 6px solid #f9ca24;
+  }
+  

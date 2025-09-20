@@ -1,0 +1,31 @@
+/* src/style/StartSearch.css */
+
+.start-search-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .start-btn {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to right, #5c6dfc, #4b55d1);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(92, 109, 252, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .start-btn:hover {
+    background: linear-gradient(to right, #4b55d1, #3d45b3);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(92, 109, 252, 0.4);
+  }
+  
+  .start-btn:active {
+    transform: scale(0.98);
+  }
+  

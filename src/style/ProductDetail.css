@@ -1,0 +1,75 @@
+/* src/style/ProductDetail.css or src/components/product/ProductDetail.css */
+
+.product-detail-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+  }
+  
+  .product-detail-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .product-detail-image:hover {
+    transform: scale(1.03);
+  }
+  
+  .product-name {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  
+  @media (max-width: 767px) {
+    .product-detail-card {
+      padding: 1.5rem;
+    }
+  
+    .product-name {
+      font-size: 1.5rem;
+    }
+  }
+  /* src/components/product/ProductDetail.css */
+
+.product-detail-container {
+    max-width: 1200px;
+  }
+  
+  .product-detail-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .product-detail-image:hover {
+    transform: scale(1.03);
+  }
+  
+  .detail-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .detail-card:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  }
+  
+  .product-description {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  /* ProductDetail.css ... your existing styles */
+
+/* Fix Leaflet zoom control overlapping navbar */
+.leaflet-control-container {
+  z-index: 400 !important; /* Lower than Bootstrap's navbar z-index */
+}

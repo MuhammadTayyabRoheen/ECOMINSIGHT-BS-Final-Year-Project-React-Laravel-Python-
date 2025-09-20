@@ -1,0 +1,28 @@
+/* src/components/home/FeatureInfoBar.css */
+.feature-bar {
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 30px 0;
+  }
+  
+  .feature-item {
+    padding: 15px 10px;
+  }
+  
+  .feature-image {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item h5 {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .feature-item p {
+    color: #666;
+    font-size: 0.95rem;
+  }
+  

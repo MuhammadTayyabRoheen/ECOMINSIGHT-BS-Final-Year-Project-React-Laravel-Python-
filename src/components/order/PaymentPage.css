@@ -1,0 +1,13 @@
+.payment-page {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.payment-page .card {
+  border: none;
+  border-radius: 8px;
+}
+
+.payment-page .form-label {
+  font-weight: 600;
+}

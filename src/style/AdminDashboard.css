@@ -1,0 +1,139 @@
+.admin-dashboard-container {
+  padding: 30px;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* === Metric Cards === */
+.dashboard-metrics {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.metric-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 220px;
+  min-height: 100px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.metric-card h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+.metric-card p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2980b9;
+}
+
+/* === Chart Section === */
+.chart-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.chart-card {
+  flex: 1;
+  min-width: 300px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  border: 1px solid #eaeaea;
+}
+
+.chart-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+/* === Product Table === */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+.product-table th,
+.product-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #f1f1f1;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f4f6f8;
+  font-weight: 600;
+  color: #555;
+}
+
+.product-table td {
+  color: #333;
+}
+
+.product-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .dashboard-metrics {
+    justify-content: center;
+  }
+
+  .metric-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .chart-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chart-card {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .product-table {
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  .product-table th, .product-table td {
+    padding: 10px;
+  }
+}

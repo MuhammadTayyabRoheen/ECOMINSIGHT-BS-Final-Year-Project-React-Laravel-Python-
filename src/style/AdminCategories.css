@@ -1,0 +1,119 @@
+/* Container styles */
+.admin-categories {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Heading */
+.admin-categories h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Form styling */
+.admin-categories .admin-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+/* Text + file inputs */
+.admin-categories .admin-form input[type="text"],
+.admin-categories .admin-form input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 200px;
+  font-size: 14px;
+}
+
+/* Add / Update button */
+.admin-categories .admin-form button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.admin-categories .admin-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Cancel button when editing */
+.admin-categories .admin-form .cancel-btn {
+  background-color: #6c757d;
+}
+
+.admin-categories .admin-form .cancel-btn:hover {
+  background-color: #5a6268;
+}
+
+/* Table styles */
+.admin-categories table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-categories th,
+.admin-categories td {
+  border: 1px solid #eee;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Table heading */
+.admin-categories th {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* Image inside table */
+.admin-categories img {
+  height: 50px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* Edit button */
+.edit-btn {
+  background-color: #17a2b8;  /* info-blue */
+  color: #ffffff;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.edit-btn:hover {
+  background-color: #117a8b;
+}
+
+/* Delete button */
+.delete-btn {
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #b02a37;
+}
